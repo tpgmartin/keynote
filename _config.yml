@@ -1,0 +1,45 @@
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+permalink: pretty
+relative_permalinks: true
+
+defaults:
+  -
+    scope:
+    path: "" # empty string for all files
+    values:
+    title:
+
+title:            keynote
+tagline:          
+url:              
+paginate:         1
+baseurl:          
+author:
+  name:
+  twitter:
+  google-plus:
+  email:
+  github: 
+  linkedin:
+  stack-overflow: 
+  bio: 
+  email_md5: 
+
+gems:
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/feed.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+rss_path: feed.xml
+about_path: about
+
+version:          
+  repo:           https://github.com/tpgmartin/keynote
